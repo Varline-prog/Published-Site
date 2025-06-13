@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 50px;
+  animation: upDown 7s ease infinite;
+}
+
+.div1-remodel {
+  background-color: #333333;
+  height: 320px;
+  width: 280px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div1-remodel p {
+  color: white;
+}
+
+button {
+  font-size: 20px;
+}
+
+.animation {
+  animation: spin 1s ease;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(180deg);
+  }
+}
