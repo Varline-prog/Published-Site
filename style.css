@@ -157,7 +157,7 @@ body {
   font-weight: bold;
 }
 
-input {
+.input {
   background: none;
   padding-top: 7px;
   padding-bottom: 7px;
