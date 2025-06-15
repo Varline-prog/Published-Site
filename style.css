@@ -137,7 +137,10 @@ body {
 }
 
 .flex-distub {
+  /* background-color: aliceblue; */
   display: flex;
+  justify-content: start;
+  width: 100%;
   align-items: center;
 }
 
