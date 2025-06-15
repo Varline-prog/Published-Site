@@ -109,11 +109,14 @@ body {
 .bottom__inputBox--btn{
   width: 35px;
   height: 35px;
-  margin-left: 15px;
   border: none;
   border-radius: 25px;
   cursor: pointer;
   transition: 0.5s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bottom__inputBox--btn:hover {
@@ -123,7 +126,6 @@ body {
 .one {
   transform: rotate(-180deg);
   width: 17px;
-  margin-top: 3px;
 }
 
 .two {
@@ -157,7 +159,7 @@ body {
   font-weight: bold;
 }
 
-.input {
+input{
   background: none;
   padding-top: 7px;
   padding-bottom: 7px;
