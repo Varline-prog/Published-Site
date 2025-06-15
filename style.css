@@ -131,13 +131,13 @@ body {
 }
 
 .bottom__inputBox--flexit {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 .flex-distub {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
